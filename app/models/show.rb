@@ -5,7 +5,7 @@ class Show < ActiveRecord::Base
   def build_network(arg)
     binding.pry
     new_network = Network.new(arg)
-    self.network = new_network
+    self.network_id = new_network
 binding.pry
   end
 end
