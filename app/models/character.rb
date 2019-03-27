@@ -13,6 +13,6 @@ class Character < ActiveRecord::Base
   end
 
   def build_network(thing)
-binding.pry
+# binding.pry
   end
 end
